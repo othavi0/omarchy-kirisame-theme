@@ -87,7 +87,7 @@ def main():
     bg = new["background"][0]
     rgb = ",".join(str(int(bg[i:i + 2], 16)) for i in (0, 2, 4))
     chromium = ROOT / "chromium.theme"
-    if chromium.read_text().strip() != rgb:
+    if chromium.exists() and chromium.read_text().strip() != rgb:
         print(f"chromium.theme: {rgb}")
         if not args.check:
             chromium.write_text(rgb + "\n")
