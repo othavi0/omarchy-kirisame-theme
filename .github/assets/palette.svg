@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="382" viewBox="0 0 880 382" role="img" aria-label="Noctua color palette">
+<rect width="880" height="382" rx="10" fill="#1c2021"/>
+<text x="28" y="38" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#7f8c8e" letter-spacing="1.2">CORE</text>
+<rect x="28" y="54" width="197" height="56" rx="6" fill="#232829" stroke="#3d444d" stroke-width="1"/>
+<text x="28" y="128" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#dcd6d6">Background</text>
+<text x="28" y="144" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#7f8c8e">#232829</text>
+<rect x="237" y="54" width="197" height="56" rx="6" fill="#dcd6d6" stroke="#3d444d" stroke-width="1"/>
+<text x="237" y="128" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#dcd6d6">Foreground</text>
+<text x="237" y="144" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#7f8c8e">#dcd6d6</text>
+<rect x="446" y="54" width="197" height="56" rx="6" fill="#85abbc" stroke="#3d444d" stroke-width="1"/>
+<text x="446" y="128" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#dcd6d6">Accent</text>
+<text x="446" y="144" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#7f8c8e">#85abbc</text>
+<rect x="655" y="54" width="197" height="56" rx="6" fill="#33464d" stroke="#3d444d" stroke-width="1"/>
+<text x="655" y="128" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#dcd6d6">Selection</text>
+<text x="655" y="144" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#7f8c8e">#33464d</text>
+<text x="28" y="178" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#7f8c8e" letter-spacing="1.2">NORMAL</text>
+<rect x="28" y="194" width="92" height="44" rx="6" fill="#232829" stroke="#3d444d" stroke-width="1"/>
+<text x="28" y="256" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#dcd6d6">#232829</text>
+<rect x="132" y="194" width="92" height="44" rx="6" fill="#cf9494" stroke="#3d444d" stroke-width="1"/>
+<text x="132" y="256" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#dcd6d6">#cf9494</text>
+<rect x="236" y="194" width="92" height="44" rx="6" fill="#98b3a3" stroke="#3d444d" stroke-width="1"/>
+<text x="236" y="256" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#dcd6d6">#98b3a3</text>
+<rect x="340" y="194" width="92" height="44" rx="6" fill="#d1c391" stroke="#3d444d" stroke-width="1"/>
+<text x="340" y="256" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#dcd6d6">#d1c391</text>
+<rect x="444" y="194" width="92" height="44" rx="6" fill="#85abbc" stroke="#3d444d" stroke-width="1"/>
+<text x="444" y="256" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#dcd6d6">#85abbc</text>
+<rect x="548" y="194" width="92" height="44" rx="6" fill="#bfa3c4" stroke="#3d444d" stroke-width="1"/>
+<text x="548" y="256" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#dcd6d6">#bfa3c4</text>
+<rect x="652" y="194" width="92" height="44" rx="6" fill="#8fbfc2" stroke="#3d444d" stroke-width="1"/>
+<text x="652" y="256" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#dcd6d6">#8fbfc2</text>
+<rect x="756" y="194" width="92" height="44" rx="6" fill="#dcd6d6" stroke="#3d444d" stroke-width="1"/>
+<text x="756" y="256" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#dcd6d6">#dcd6d6</text>
+<text x="28" y="282" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#7f8c8e" letter-spacing="1.2">BRIGHT</text>
+<rect x="28" y="298" width="92" height="44" rx="6" fill="#7f8c8e" stroke="#3d444d" stroke-width="1"/>
+<text x="28" y="360" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#dcd6d6">#7f8c8e</text>
+<rect x="132" y="298" width="92" height="44" rx="6" fill="#e0b0b0" stroke="#3d444d" stroke-width="1"/>
+<text x="132" y="360" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#dcd6d6">#e0b0b0</text>
+<rect x="236" y="298" width="92" height="44" rx="6" fill="#b4cabd" stroke="#3d444d" stroke-width="1"/>
+<text x="236" y="360" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#dcd6d6">#b4cabd</text>
+<rect x="340" y="298" width="92" height="44" rx="6" fill="#e0d6ae" stroke="#3d444d" stroke-width="1"/>
+<text x="340" y="360" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#dcd6d6">#e0d6ae</text>
+<rect x="444" y="298" width="92" height="44" rx="6" fill="#a5c4d1" stroke="#3d444d" stroke-width="1"/>
+<text x="444" y="360" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#dcd6d6">#a5c4d1</text>
+<rect x="548" y="298" width="92" height="44" rx="6" fill="#d3bdd7" stroke="#3d444d" stroke-width="1"/>
+<text x="548" y="360" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#dcd6d6">#d3bdd7</text>
+<rect x="652" y="298" width="92" height="44" rx="6" fill="#aed3d5" stroke="#3d444d" stroke-width="1"/>
+<text x="652" y="360" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#dcd6d6">#aed3d5</text>
+<rect x="756" y="298" width="92" height="44" rx="6" fill="#f2eeee" stroke="#3d444d" stroke-width="1"/>
+<text x="756" y="360" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#dcd6d6">#f2eeee</text>
+</svg>
