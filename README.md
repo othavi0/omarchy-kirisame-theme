@@ -49,8 +49,6 @@ Omarchy does not apply these. Copy the ones you want into each app's config.
 - `steam.css` holds color overrides for the Adwaita for Steam skin.
 - `vencord.theme.css` is a Discord theme for Vencord. It imports its base stylesheet from `imbypass.github.io` each time Discord starts.
 - `firefox.css` holds base16 color variables for a Firefox `userChrome.css`.
-- `colors.fish` sets Fish syntax and pager colors.
-- `fzf.fish` sets fzf colors from Fish, with the current line on the selection color.
 - `warp.yaml` is a Warp terminal theme.
 - `bat/Kirisame.tmTheme` is a bat syntax theme.
 
@@ -73,39 +71,32 @@ Click any thumbnail for the full-resolution file.
 
 | | | |
 | --- | --- | --- |
-| [![Tram with cat ears in a narrow street](.github/assets/01-cat-tram.jpg)](backgrounds/01-cat-tram.jpg) | [![Train passing under cherry trees](.github/assets/02-sakura-line.jpg)](backgrounds/02-sakura-line.jpg) | [![Pixel art station concourse](.github/assets/03-pixel-station.jpg)](backgrounds/03-pixel-station.jpg) |
-| `01-cat-tram.jpg` | `02-sakura-line.jpg` | `03-pixel-station.jpg` |
-| [![Pixel art house with a cat on a car](.github/assets/04-balcony-cat.jpg)](backgrounds/04-balcony-cat.png) | [![Shopping arcade overgrown with plants](.github/assets/05-overgrown-arcade.jpg)](backgrounds/05-overgrown-arcade.jpg) | [![Stacked town in jade green](.github/assets/06-jade-town.jpg)](backgrounds/06-jade-town.jpg) |
-| `04-balcony-cat.png` | `05-overgrown-arcade.jpg` | `06-jade-town.jpg` |
-| [![Old street with a pagoda and cherry blossom](.github/assets/07-pagoda-street.jpg)](backgrounds/07-pagoda-street.jpg) | [![Stone path through a hillside village](.github/assets/08-village-path.jpg)](backgrounds/08-village-path.jpg) | [![Quiet corner with a bento shop and a cat](.github/assets/09-bento-corner.jpg)](backgrounds/09-bento-corner.jpg) |
-| `07-pagoda-street.jpg` | `08-village-path.jpg` | `09-bento-corner.jpg` |
-| [![Empty train carriage in morning light](.github/assets/10-empty-carriage.jpg)](backgrounds/10-empty-carriage.jpg) | [![Train crossing a city overpass](.github/assets/11-city-overpass.jpg)](backgrounds/11-city-overpass.jpg) | [![Pixel art skyline at dusk](.github/assets/12-rose-skyline.jpg)](backgrounds/12-rose-skyline.png) |
-| `10-empty-carriage.jpg` | `11-city-overpass.jpg` | `12-rose-skyline.png` |
+| [![Tram with cat ears in a narrow street](.github/assets/01-cat-tram.jpg)](backgrounds/01-cat-tram.webp) | [![Train passing under cherry trees](.github/assets/02-sakura-line.jpg)](backgrounds/02-sakura-line.webp) | [![Pixel art station concourse](.github/assets/03-pixel-station.jpg)](backgrounds/03-pixel-station.webp) |
+| `01-cat-tram.webp` | `02-sakura-line.webp` | `03-pixel-station.webp` |
+| [![Pixel art house with a cat on a car](.github/assets/04-balcony-cat.jpg)](backgrounds/04-balcony-cat.png) | [![Shopping arcade overgrown with plants](.github/assets/05-overgrown-arcade.jpg)](backgrounds/05-overgrown-arcade.webp) | [![Stacked town in jade green](.github/assets/06-jade-town.jpg)](backgrounds/06-jade-town.webp) |
+| `04-balcony-cat.png` | `05-overgrown-arcade.webp` | `06-jade-town.webp` |
+| [![Old street with a pagoda and cherry blossom](.github/assets/07-pagoda-street.jpg)](backgrounds/07-pagoda-street.webp) | [![Stone path through a hillside village](.github/assets/08-village-path.jpg)](backgrounds/08-village-path.webp) | [![Quiet corner with a bento shop and a cat](.github/assets/09-bento-corner.jpg)](backgrounds/09-bento-corner.webp) |
+| `07-pagoda-street.webp` | `08-village-path.webp` | `09-bento-corner.webp` |
+| [![Empty train carriage in morning light](.github/assets/10-empty-carriage.jpg)](backgrounds/10-empty-carriage.webp) | [![Train crossing a city overpass](.github/assets/11-city-overpass.jpg)](backgrounds/11-city-overpass.webp) | [![Pixel art skyline at dusk](.github/assets/12-rose-skyline.jpg)](backgrounds/12-rose-skyline.png) |
+| `10-empty-carriage.webp` | `11-city-overpass.webp` | `12-rose-skyline.png` |
 
 ### Wallpaper sources
 
 The wallpapers are third-party artwork found on Wallhaven, and they are not covered by any license of this repository. If one of them is yours and you want it credited or removed, open an issue.
 
-- `01-cat-tram.jpg`: <https://wallhaven.cc/w/qro3kr>
-- `02-sakura-line.jpg`: <https://wallhaven.cc/w/zp9q7y>
-- `03-pixel-station.jpg`: <https://wallhaven.cc/w/o3l26l>
+- `01-cat-tram.webp`: <https://wallhaven.cc/w/qro3kr>
+- `02-sakura-line.webp`: <https://wallhaven.cc/w/zp9q7y>
+- `03-pixel-station.webp`: <https://wallhaven.cc/w/o3l26l>
 - `04-balcony-cat.png`: <https://wallhaven.cc/w/2y6zl6>
-- `05-overgrown-arcade.jpg`: <https://wallhaven.cc/w/vq81j3>
-- `06-jade-town.jpg`: <https://wallhaven.cc/w/wezkgx>
-- `07-pagoda-street.jpg`: <https://wallhaven.cc/w/jeepom>
-- `08-village-path.jpg`: <https://wallhaven.cc/w/yqq6rd>
-- `09-bento-corner.jpg`: <https://wallhaven.cc/w/x6vved>
-- `10-empty-carriage.jpg`: <https://wallhaven.cc/w/21kgog>
-- `11-city-overpass.jpg`: <https://wallhaven.cc/w/9od8kw>
+- `05-overgrown-arcade.webp`: <https://wallhaven.cc/w/vq81j3>
+- `06-jade-town.webp`: <https://wallhaven.cc/w/wezkgx>
+- `07-pagoda-street.webp`: <https://wallhaven.cc/w/jeepom>
+- `08-village-path.webp`: <https://wallhaven.cc/w/yqq6rd>
+- `09-bento-corner.webp`: <https://wallhaven.cc/w/x6vved>
+- `10-empty-carriage.webp`: <https://wallhaven.cc/w/21kgog>
+- `11-city-overpass.webp`: <https://wallhaven.cc/w/9od8kw>
 - `12-rose-skyline.png`: <https://wallhaven.cc/w/vg52ql>
 
 ## Changing the palette
 
-Every color lives in `colors.toml`. The manual extras repeat those values, so after editing it run:
-
-```bash
-python3 scripts/sync_extras.py   # rewrites the fixed hex values in the other theme files
-python3 scripts/gen_palette.py   # redraws the palette image above
-```
-
-`sync_extras.py` compares `colors.toml` with the last commit, so run it before you commit. It ends by listing any hex value that is not part of the palette.
+Every color lives in `colors.toml`. The manual extras, the `shell.*.toml` files and the palette image repeat those values by hand, so update them in the same change.
