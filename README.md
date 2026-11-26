@@ -58,12 +58,12 @@ Click any thumbnail for the full-resolution file.
 
 | | | |
 | --- | --- | --- |
-| [![Train passing under cherry trees](.github/assets/01-sakura-line.jpg)](backgrounds/01-sakura-line.jpg) | [![Pixel art station concourse](.github/assets/02-pixel-station.jpg)](backgrounds/02-pixel-station.jpg) | [![Pixel art house with a cat on a car](.github/assets/03-balcony-cat.jpg)](backgrounds/03-balcony-cat.png) |
-| `01-sakura-line.jpg` | `02-pixel-station.jpg` | `03-balcony-cat.png` |
-| [![Shopping arcade overgrown with plants](.github/assets/04-overgrown-arcade.jpg)](backgrounds/04-overgrown-arcade.jpg) | [![Stacked town in jade green](.github/assets/05-jade-town.jpg)](backgrounds/05-jade-town.jpg) | [![Old street with a pagoda and cherry blossom](.github/assets/06-pagoda-street.jpg)](backgrounds/06-pagoda-street.jpg) |
-| `04-overgrown-arcade.jpg` | `05-jade-town.jpg` | `06-pagoda-street.jpg` |
-| [![Stone path through a hillside village](.github/assets/07-village-path.jpg)](backgrounds/07-village-path.jpg) | [![Quiet corner with a bento shop and a cat](.github/assets/08-bento-corner.jpg)](backgrounds/08-bento-corner.jpg) | [![Tram with cat ears in a narrow street](.github/assets/09-cat-tram.jpg)](backgrounds/09-cat-tram.jpg) |
-| `07-village-path.jpg` | `08-bento-corner.jpg` | `09-cat-tram.jpg` |
+| [![Tram with cat ears in a narrow street](.github/assets/01-cat-tram.jpg)](backgrounds/01-cat-tram.jpg) | [![Train passing under cherry trees](.github/assets/02-sakura-line.jpg)](backgrounds/02-sakura-line.jpg) | [![Pixel art station concourse](.github/assets/03-pixel-station.jpg)](backgrounds/03-pixel-station.jpg) |
+| `01-cat-tram.jpg` | `02-sakura-line.jpg` | `03-pixel-station.jpg` |
+| [![Pixel art house with a cat on a car](.github/assets/04-balcony-cat.jpg)](backgrounds/04-balcony-cat.png) | [![Shopping arcade overgrown with plants](.github/assets/05-overgrown-arcade.jpg)](backgrounds/05-overgrown-arcade.jpg) | [![Stacked town in jade green](.github/assets/06-jade-town.jpg)](backgrounds/06-jade-town.jpg) |
+| `04-balcony-cat.png` | `05-overgrown-arcade.jpg` | `06-jade-town.jpg` |
+| [![Old street with a pagoda and cherry blossom](.github/assets/07-pagoda-street.jpg)](backgrounds/07-pagoda-street.jpg) | [![Stone path through a hillside village](.github/assets/08-village-path.jpg)](backgrounds/08-village-path.jpg) | [![Quiet corner with a bento shop and a cat](.github/assets/09-bento-corner.jpg)](backgrounds/09-bento-corner.jpg) |
+| `07-pagoda-street.jpg` | `08-village-path.jpg` | `09-bento-corner.jpg` |
 | [![Empty train carriage in morning light](.github/assets/10-empty-carriage.jpg)](backgrounds/10-empty-carriage.jpg) | [![Train crossing a city overpass](.github/assets/11-city-overpass.jpg)](backgrounds/11-city-overpass.jpg) | [![Pixel art skyline at dusk](.github/assets/12-rose-skyline.jpg)](backgrounds/12-rose-skyline.png) |
 | `10-empty-carriage.jpg` | `11-city-overpass.jpg` | `12-rose-skyline.png` |
 
@@ -71,15 +71,15 @@ Click any thumbnail for the full-resolution file.
 
 The wallpapers are third-party artwork found on Wallhaven, and they are not covered by any license of this repository. If one of them is yours and you want it credited or removed, open an issue.
 
-- `01-sakura-line.jpg`: <https://wallhaven.cc/w/zp9q7y>
-- `02-pixel-station.jpg`: <https://wallhaven.cc/w/o3l26l>
-- `03-balcony-cat.png`: <https://wallhaven.cc/w/2y6zl6>
-- `04-overgrown-arcade.jpg`: <https://wallhaven.cc/w/vq81j3>
-- `05-jade-town.jpg`: <https://wallhaven.cc/w/wezkgx>
-- `06-pagoda-street.jpg`: <https://wallhaven.cc/w/jeepom>
-- `07-village-path.jpg`: <https://wallhaven.cc/w/yqq6rd>
-- `08-bento-corner.jpg`: <https://wallhaven.cc/w/x6vved>
-- `09-cat-tram.jpg`: <https://wallhaven.cc/w/qro3kr>
+- `01-cat-tram.jpg`: <https://wallhaven.cc/w/qro3kr>
+- `02-sakura-line.jpg`: <https://wallhaven.cc/w/zp9q7y>
+- `03-pixel-station.jpg`: <https://wallhaven.cc/w/o3l26l>
+- `04-balcony-cat.png`: <https://wallhaven.cc/w/2y6zl6>
+- `05-overgrown-arcade.jpg`: <https://wallhaven.cc/w/vq81j3>
+- `06-jade-town.jpg`: <https://wallhaven.cc/w/wezkgx>
+- `07-pagoda-street.jpg`: <https://wallhaven.cc/w/jeepom>
+- `08-village-path.jpg`: <https://wallhaven.cc/w/yqq6rd>
+- `09-bento-corner.jpg`: <https://wallhaven.cc/w/x6vved>
 - `10-empty-carriage.jpg`: <https://wallhaven.cc/w/21kgog>
 - `11-city-overpass.jpg`: <https://wallhaven.cc/w/9od8kw>
 - `12-rose-skyline.png`: <https://wallhaven.cc/w/vg52ql>
