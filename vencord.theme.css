@@ -1,0 +1,29 @@
+/**
+* @name Kirisame Discord
+* @author @bypass_
+* @version 0.1.0
+* @description Kirisame colors for Omarchy
+* @source https://github.com/imbypass/base16-Discord
+**/
+
+/* import the parent */
+@import url('https://imbypass.github.io/base16-discord/omarchy-discord.theme.css');
+
+:root {
+    --color00: #232829;
+    --color01: #cf9494;
+    --color02: #98b3a3;
+    --color03: #d1a98c;
+    --color04: #85abbc;
+    --color05: #bfa3c4;
+    --color06: #8fbfc2;
+    --color07: #dcd6d6;
+    --color08: #7f8c8e;
+    --color09: #cf9494;
+    --color10: #98b3a3;
+    --color11: #d1c391;
+    --color12: #85abbc;
+    --color13: #bfa3c4;
+    --color14: #8fbfc2;
+    --color15: #f2eeee;
+}

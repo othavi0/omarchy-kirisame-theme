@@ -4,11 +4,11 @@
 - Targets Omarchy 4. `colors.toml` is the source: Omarchy generates the terminal configs, `hyprland.lua` (window borders from `hyprland_active_border`), the omarchy-shell `shell.toml`, and the Neovim/VS Code/Helix/Obsidian themes from it via `/usr/share/omarchy/default/themed/*.tpl`.
 - `shell.<section>.toml` replaces that whole section of the generated `shell.toml` (e.g., `shell.menu.toml` replaces `[menu]`). The body has no `[section]` header, and text keys (`text`, `selected-text`) take hex only.
 - A theme installed from git never ships `*.lua`, `vscode.json`, `alacritty.toml`, `foot.ini`, `ghostty.conf` or `kitty.conf`: Omarchy drops them and regenerates from `colors.toml`. Do not add them; Window shape and opacity go in the README as Omarchy commands (`omarchy hyprland corners`, `omarchy hyprland window transparency`).
-- The theme ships no manual extras and no `btop.theme`, `chromium.theme` or `icons.theme`: Omarchy generates those from `colors.toml`.
+- Other root files (`gtk.css`, `steam.css`, `firefox.css`, `warp.yaml`, ...) are manual extras Omarchy does not apply. The theme ships no `btop.theme`, `chromium.theme` or `icons.theme`: Omarchy generates those from `colors.toml`.
 - Kirisame is a rebuild of Amekoji (atif-1402/omarchy-amekoji-theme) for Omarchy 4. Surfaces stay solid: every `background-alpha` in `shell.*.toml` is `1.0`.
 - `backgrounds/` contains the bundled wallpapers used by the theme. Omarchy scans this directory and treats every image in it as a selectable wallpaper — never put non-wallpaper assets here.
 - `.github/assets/` holds README-only assets (palette SVG, wallpaper thumbnails).
-- `scripts/` holds the palette generator and the README integrity checker.
+- `scripts/` holds the palette generator, the palette sync for the manual extras, and the README integrity checker.
 - `preview.png` is the visual snapshot used in the README.
 
 ## Build, Test, and Development Commands
@@ -24,7 +24,7 @@ This repo is configuration-only; there is no build system or automated test runn
 
 ## Testing Guidelines
 - Run `python3 scripts/check_readme.py` after touching the README or renaming any asset; it fails if a referenced path is missing or a theme file is undocumented.
-- After changing `colors.toml`, run `python3 scripts/gen_palette.py` to redraw the palette, and update the same hex values by hand in the `shell.*.toml` files.
+- After changing `colors.toml`, and before committing, run `python3 scripts/sync_extras.py` to rewrite the fixed hex values in the other theme files (extras and `shell.*.toml`), then `python3 scripts/gen_palette.py` to redraw the palette. Never edit a palette hex by hand in those files.
 - No other automated tests are defined.
 - Verify changes visually in the target app and update `preview.png` when the UI changes.
 - Neovim has no file here: Omarchy generates `neovim.lua` from `colors.toml` (aether.nvim), so check Neovim colors by changing `colors.toml`.

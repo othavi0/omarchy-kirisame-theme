@@ -32,12 +32,27 @@ Kirisame keeps Amekoji's slate and mist blue, and separates the status colors so
 
 ## What's included
 
-`omarchy-theme-set kirisame` applies all of these on its own.
+### Applied by Omarchy
+
+`omarchy-theme-set kirisame` applies these on its own.
 
 - `colors.toml` is the source Omarchy generates from. That covers the terminals (Alacritty, Kitty, Ghostty, Foot), the active and inactive Hyprland window borders, the omarchy-shell surfaces (bar, notifications, popups), btop, the Chromium frame, the Neovim, VS Code, Helix and Obsidian themes, Qt apps, and the keyboard backlight.
 - `shell.menu.toml` and `shell.launcher.toml` give the omarchy-shell menu and launcher a darker solid card, a mist-blue gradient border and a mist-blue selected row.
 - `shell.lock.toml` and `shell.tooltip.toml` make the lock screen input and the tooltips fully solid.
 - `backgrounds/` holds the twelve wallpapers below.
+
+### Manual extras
+
+Omarchy does not apply these. Copy the ones you want into each app's config.
+
+- `gtk.css` holds GTK4/libadwaita color overrides.
+- `steam.css` holds color overrides for the Adwaita for Steam skin.
+- `vencord.theme.css` is a Discord theme for Vencord. It imports its base stylesheet from `imbypass.github.io` each time Discord starts.
+- `firefox.css` holds base16 color variables for a Firefox `userChrome.css`.
+- `colors.fish` sets Fish syntax and pager colors.
+- `fzf.fish` sets fzf colors from Fish, with the current line on the selection color.
+- `warp.yaml` is a Warp terminal theme.
+- `bat/Kirisame.tmTheme` is a bat syntax theme.
 
 ## Rounded corners and transparency
 
@@ -86,10 +101,11 @@ The wallpapers are third-party artwork found on Wallhaven, and they are not cove
 
 ## Changing the palette
 
-Every color lives in `colors.toml`. After editing it, redraw the palette image above:
+Every color lives in `colors.toml`. The manual extras repeat those values, so after editing it run:
 
 ```bash
-python3 scripts/gen_palette.py
+python3 scripts/sync_extras.py   # rewrites the fixed hex values in the other theme files
+python3 scripts/gen_palette.py   # redraws the palette image above
 ```
 
-The `shell.*.toml` files repeat a few of those colors by hand, so update them in the same change.
+`sync_extras.py` compares `colors.toml` with the last commit, so run it before you commit. It ends by listing any hex value that is not part of the palette.

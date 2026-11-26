@@ -1,0 +1,26 @@
+name: Kirisame
+accent: "#85abbc"
+cursor: "#dcd6d6"
+background: "#232829"
+foreground: "#dcd6d6"
+details: darker
+
+terminal_colors:
+  normal:
+    black: "#232829"
+    red: "#cf9494"
+    green: "#98b3a3"
+    yellow: "#d1a98c"
+    blue: "#85abbc"
+    magenta: "#bfa3c4"
+    cyan: "#8fbfc2"
+    white: "#dcd6d6"
+  bright:
+    black: "#7f8c8e"
+    red: "#cf9494"
+    green: "#98b3a3"
+    yellow: "#d1c391"
+    blue: "#85abbc"
+    magenta: "#bfa3c4"
+    cyan: "#8fbfc2"
+    white: "#f2eeee"
